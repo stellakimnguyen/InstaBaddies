@@ -8,6 +8,7 @@ script:
   - npm install
   - cd server && npm install
   - cd ../client && npm install
+  - console.log(process.cwd())
   - cd .. && npm run start
 deploy:
   provider: pages
