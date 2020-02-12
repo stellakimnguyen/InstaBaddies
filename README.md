@@ -19,10 +19,24 @@ Javascript and / or Python (TBD)
 ## Techniques :octocat:
 | Scope                 | Techniques                      |
 | --------------        |:-----------------------:        |
-| Frontend (TBD)        | React.js                        |
-| Backend (TBD)         | Node.js or Python               |
-| Framework             | Django or Flask                 |
-| Authentication (TBD)  | Auth0 or Facebook Login         |
-| Database (TBD)        | Firebase or MySQL or MongoDB    |
-| CI (TBD)              | Jenkins                         |
+| Frontend              | React.js                        |
+| Backend               | Node.js                         |
+| Server Framework      | Express.js                      |
+| Authentication (TBD)  | Auth0 or Facebook Login or JWT  |
+| Database              | MongoDB                         |
+| CI (TBD)              | Jenkins or TravisCI             |
 | Platform              | Web                             |
+| Data Hosting Service  | Firebase                        |
+
+## To Run
+``` npm install ```
+In the root directory, server folder and client folder
+
+``` npm run client ```
+To run web server
+
+``` npm run server ```
+To run back end server
+
+``` npm run start ```
+To run web server and back end server
