@@ -52,11 +52,15 @@ export default class User extends React.Component {
 
             <div className='p-5'>
                 <h3>The User Page</h3>
+<<<<<<< HEAD
                 <div id="info">
                 	<p>USERNAME</p>
                 </div>
                 <button type="button">FOLLOW</button>
  				<br/>
+=======
+                <p>User info: </p>
+>>>>>>> ae95f36... login and signup pages are linked. No working apis
                 <input type='file' onChange={this.fileSelectedHandler} />
                 {postList}
             </div>
