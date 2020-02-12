@@ -7,7 +7,7 @@
   "scripts": {
     "client": "cd client && npm start",
     "server": "cd server && npm run start",
-    "start": "concurrently \"npm run server && cd ..\" \"npm run client\""
+    "start": "concurrently  \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
