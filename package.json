@@ -6,7 +6,7 @@
   "homepage": "https://github.com/car12lin12/InstaBaddies.git",
   "scripts": {
     "client": "cd client && npm start",
-    "server": "cd server && npm start",
+    "server": "cd server && npm run start",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
