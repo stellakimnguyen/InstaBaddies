@@ -6,7 +6,9 @@ cache:
   - node_modules
 script:
   - npm install
-  - npm run start
+  - cd server && npm install
+  - cd ../client && npm install
+  - cd .. && npm run start
 deploy:
   provider: pages
   skip_cleanup: true
