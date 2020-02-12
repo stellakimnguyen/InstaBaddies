@@ -9,7 +9,7 @@ script:
   - npm install -g concurrently
   - cd server && npm install
   - cd ../client && npm install
-  - cd .. && npm run start
+  - npm run dev
 deploy:
   provider: pages
   skip_cleanup: true
