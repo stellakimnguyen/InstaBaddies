@@ -6,9 +6,9 @@ cache:
   - node_modules
 script:
   - npm install
+  - npm install --save-dev concurrently -g
   - cd server && npm install
   - cd ../client && npm install
-  - console.log(process.cwd())
   - cd .. && npm run start
 deploy:
   provider: pages
