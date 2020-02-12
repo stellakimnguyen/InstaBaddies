@@ -5,13 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
     "client": "cd ../client && npm start",
     "dev": "concurrently --kill-others \"npm run start\" \"npm run client\"",
-=======
-    "client": "cd ..\\client && npm start",
-    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\"",
->>>>>>> b1485d6... at the end of my wits
     "start": "node server.js",
     "server": "nodemon server.js"
   },
