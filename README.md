@@ -22,7 +22,7 @@ Javascript and / or Python (TBD)
 | Frontend              | React.js                        |
 | Backend               | Node.js                         |
 | Framework             | Express.js                      |
-| Authentication (TBD)  | Auth0 or Facebook Login         |
+| Authentication        | Auth0                           |
 | Database              | MongoDB                         |
 | CI                    | Jenkins                         |
 | Platform              | Web                             |
