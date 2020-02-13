@@ -7,9 +7,7 @@ cache:
 services: mongodb
 script:
   - npm install
-  - cd client && npm install
-  - cd ../server && npm install
-  - npm run dev
+  - npm run start
 deploy:
   provider: pages
   skip_cleanup: true
