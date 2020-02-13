@@ -7,6 +7,7 @@ cache:
 services:
   -mongodb
 script:
+  - echo $MONGODB_URL
   - npm install
   - npm install -g concurrently
   - cd client && npm install
