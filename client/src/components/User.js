@@ -23,6 +23,9 @@ export default class User extends React.Component {
         console.log(event)
     }
 
+    test() {
+        console.log("Hello");
+    }
 
     render() {
         const { posts } = this.state;
@@ -53,6 +56,7 @@ export default class User extends React.Component {
             <div className='p-5'>
                 <h3>The User Page</h3>
                 <p>User info: </p>
+                <button onClick={this.test}>Follow</button>
                 <input type='file' onChange={this.fileSelectedHandler} />
                 {postList}
             </div>
