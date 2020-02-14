@@ -52,7 +52,11 @@ export default class User extends React.Component {
 
             <div className='p-5'>
                 <h3>The User Page</h3>
-                <p>User info: </p>
+                <div id="info">
+                	<p>USERNAME</p>
+                </div>
+                <button type="button">FOLLOW</button>
+ 				<br/>
                 <input type='file' onChange={this.fileSelectedHandler} />
                 {postList}
             </div>
