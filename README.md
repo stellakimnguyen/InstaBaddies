@@ -40,3 +40,7 @@ To run back end server
 
 ``` npm run start ```
 To run web server and back end server
+
+``` npm test ```
+To run tests, located in test folders and ending in .spec.js
+Must be run in server and client folder separately

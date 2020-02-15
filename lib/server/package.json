@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./node_modules/mocha/bin/mocha '**/test/*.spec.js'",
     "client": "cd ../client && npm start",
     "dev": "concurrently \"npm run start\" \"npm run client\"",
     "start": "node server.js",
@@ -24,7 +24,9 @@
     "validator": "^12.2.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "concurrently": "^5.1.0",
+    "mocha": "^7.0.1",
     "nodemon": "^2.0.2"
   }
 }
