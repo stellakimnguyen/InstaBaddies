@@ -4,14 +4,9 @@ node_js:
 cache:
   directories:
   - node_modules
-services:
-  -mongodb
+services: mongodb
 script:
   - npm install
-  - npm install -g concurrently
-  - cd client && npm install
-  - cd ../server && npm install
-  - npm run dev
 deploy:
   provider: pages
   skip_cleanup: true

@@ -5,14 +5,20 @@
   "main": "index.js",
   "homepage": "https://github.com/car12lin12/InstaBaddies.git",
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "cd server && npm run start",
-    "start": "concurrently  \"npm run server\" \"npm run client\""
+    "preinstall": "node bin/preinstall",
+    "client": "cd lib/client && npm start",
+    "server": "cd lib/server && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "5.1.0"
+  },
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "express": "^4.17.1",
+    "firebase": "^7.9.1"
   }
 }
