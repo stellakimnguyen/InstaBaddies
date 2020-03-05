@@ -14,7 +14,7 @@ InstaB@ddies aims to create a simplified Instagram clone that allows users to vi
 * Carlin Lee - @car12lin12
 
 ## Languages
-Javascript and / or Python (TBD)
+Javascript
 
 ## Techniques :octocat:
 | Scope                 | Techniques                      |
@@ -22,10 +22,11 @@ Javascript and / or Python (TBD)
 | Frontend              | React.js                        |
 | Backend               | Node.js                         |
 | Server Framework      | Express.js                      |
-| Authentication (TBD)  | Auth0 or Facebook Login or JWT  |
-| Database              | MongoDB                         |
-| CI (TBD)              | Jenkins or TravisCI             |
+| Authentication        | Firebase/JWT                    |
+| Database              | Firebase                        |
+| CI                    | Travis CI                       |
 | Platform              | Web                             |
+| Design                | Multi-page webiste              |
 | Data Hosting Service  | Firebase                        |
 
 ## To Run
