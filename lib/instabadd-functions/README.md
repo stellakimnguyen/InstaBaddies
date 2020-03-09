@@ -49,3 +49,7 @@
 
 - to debug a firebase request from the browser, go onto firebase functions logs :
   in the firebase dashboard => functions => logs. Check the error message. Filter by error
+
+# Quota
+
+- we are using the free version of firebase and thus there exist quotas for function calls and storage.
