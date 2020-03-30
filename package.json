@@ -1,11 +1,12 @@
 {
-  "name": "instabaddAttempt2",
+  "name": "instabadd5",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "homepage": "https://github.com/car12lin12/InstaBaddies.git",
   "scripts": {
-    "preinstall": "node bin/preinstall",
+    "preinstall": "cd lib/client && npm install && cd ../instabadd-functions/functions && npm install",
+    "test": "cd lib/instabadd-functions/functions && npm test",
     "client": "cd lib/client && npm start",
     "server": "cd lib/server && npm run start",
     "start": "concurrently \"npm run server\" \"npm run client\""
