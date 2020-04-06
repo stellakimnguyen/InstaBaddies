@@ -2,11 +2,13 @@
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
+    "test": "mocha --reporter spec --exit",
     "serve": "firebase serve --only functions",
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "lint": "./node_modules/.bin/eslint index.js ./handlers/posts.js ./handlers/users.js"
   },
   "engines": {
     "node": "8"
@@ -14,12 +16,19 @@
   "dependencies": {
     "busboy": "^0.3.1",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "firebase": "^7.9.1",
     "firebase-admin": "^8.6.0",
     "firebase-functions": "^3.3.0"
   },
   "devDependencies": {
-    "firebase-functions-test": "^0.1.6"
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "firebase-functions-test": "^0.1.6",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1",
+    "superagent": "^5.2.2",
+    "supertest": "^4.0.2"
   },
   "private": true
 }
