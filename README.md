@@ -2,13 +2,15 @@
 
 [![Build Status](https://travis-ci.com/car12lin12/InstaBaddies.svg?branch=master)](https://travis-ci.com/car12lin12/InstaBaddies)
 
-## Objective :computer:
+## Features :computer:
 
 InstaB@ddies aims to create a simplified Instagram clone that allows users to view candid or adventurous pictures of their friends or celebrity crushes and to share their own. This project provides the following **core features** :
 
 - Upload a picture
 - Follow another user and receive notifications
 - Comment on an uploaded picture
+- Search bar
+- Edit profile details
 
 ## Members :bust_in_silhouette:
 
