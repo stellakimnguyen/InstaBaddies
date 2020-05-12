@@ -21,8 +21,18 @@ InstaB@ddies aims to create a simplified Instagram clone that allows users to vi
 - Carlin Lee - @car12lin12
 
 ## Application Screenshots :camera:
-### Log In Page
+#### Log In
 ![Image of LogIn](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/LogIn.png)
+#### Sign Up
+![Image of SignUp](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/SignUp.png)
+#### Homepage
+![Image of Homepage](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/HomePage.png)
+#### Searching User
+![Image of LogIn](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/Search.png)
+#### Visting User
+![Image of LogIn](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/VisitingUser.png)
+#### Comments
+![Image of LogIn](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/Comment.png)
 
 ## Languages
 
