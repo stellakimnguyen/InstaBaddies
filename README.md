@@ -20,11 +20,15 @@ InstaB@ddies aims to create a simplified Instagram clone that allows users to vi
 - Stella Nguyen - @stellakimnguyen
 - Carlin Lee - @car12lin12
 
+## Application Screenshots :camera:
+### Log In Page
+![Image of LogIn](https://github.com/stellakimnguyen/InstaBaddies/blob/master/lib/client/src/images/LogIn.png)
+
 ## Languages
 
 Javascript
 
-## Techniques :octocat:
+## Technologies :octocat:
 
 | Scope                |     Techniques     |
 | -------------------- | :----------------: |
